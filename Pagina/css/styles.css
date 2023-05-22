@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(0, 72, 153);
+    margin-top: -8px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.encabezadocinta {
+
+    padding: -10px;
+    margin-top: -8px;
+    margin-bottom: 40px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align:center;
+    background-color: rgb(0, 72, 153);
+}
+
+.logo{
+
+    width: 12%;
+    margin-right: 85%;
+}
+
+.navbarprimera{
+    background-color: aqua;
+}
+
+.form-label{
+    background-color: white;
+}
+
+
+
