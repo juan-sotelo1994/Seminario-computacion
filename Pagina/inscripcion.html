@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Instituto Colombiano para la Evaluacion de la Educacion - ICFES - icfe</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="encabezadocinta">
+    <img class="logo" src="D:\proyectoN\imagen\logogobierno.png" alt="logo de gobierno">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menu Principal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <div class="btn-group">
+                <a href="Principal.html" class="btn btn-primary active" aria-current="page">Inicio</a>
+                <a href="inscripcion.html" class="btn btn-primary">Inscripcion</a>
+                <a href="Evaluacion.html" class="btn btn-primary">Evaluaciones</a>
+                <a href="evaluacionavanzar.html" class="btn btn-primary">Evaluaciones para Avanzar 3° a 11°</a>
+                <a href="preguntas.html" class="btn btn-primary">Preguntas Frecuentes</a>
+                <a href="tramites.html" class="btn btn-primary">Tramites</a>
+                <a href="pagos.html" class="btn btn-primary">Metodos de Pago</a>
+                <a href="PQR.HTML" class="btn btn-primary">PQR</a>
+              </div>
+           
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Busqueda</button>
+          </form>          
+        </div>
+      </div>
+    </nav>
+    <div class="carousel-item">
+      <img src="..." alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>...</h5>
+        <p>...</p>
+      </div>
+    </div>
+  </div>
+
+  <form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-4">
+      <label for="validationCustom01" class="form-label">Primer Nombre</label>
+      <input type="text" class="form-control" id="validationCustom01" value="Primer Nombre" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustom02" class="form-label">Segundo Nombre</label>
+      <input type="text" class="form-control" id="validationCustom02" value="Segundo Nombre" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">Primer Apellido</label>
+        <input type="text" class="form-control" id="validationCustom01" value="Primer Apellido" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">Segundo Apellido</label>
+        <input type="text" class="form-control" id="validationCustom02" value="Segundo Apellido" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+    <div class="col-md-4">
+      <label for="validationCustomUsername" class="form-label">Correo Electronico</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">Correo Electronico</span>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <label for="inputPassword6" class="form-label">Password</label>
+        </div>
+        <div class="col-auto">
+          <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
+        </div>
+        <div class="col-auto">
+          <span id="passwordHelpInline" class="form-label">
+            Contraseña de 8-20 caracteres.
+          </span>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="formFile" class="form-label">Suba sus archivos</label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+     
+
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-label" for="invalidCheck">
+          Acepto los terminos y condiciones 
+        </label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Enviar Mis Datos</button>
+    </div>
+  </form>
+</body>
+</html>
