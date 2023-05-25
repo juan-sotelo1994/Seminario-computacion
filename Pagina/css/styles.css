@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*
+body{
+    background-color: rgb(255, 255, 255);
+    margin-top: -8px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:;
+    
+}
+*/
+.encabezadocinta {
+
+    padding: 10px;
+    margin-top: -3px;
+    margin-bottom: 40px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align:center;
+    background-color: rgb(0, 72, 153);
+}
+
+.logo{
+
+    width: 8%;
+    margin-right: 85%;
+}
+
+.busqueda{
+    padding: 10px;
+    margin-top: -15px;
+    margin-right: 240px;
+    margin-left: 240px;
+    background-color: rgb(14, 184, 57);
+}
+
+header {
+	margin-top:10px;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    position: relative;
+}
+
+nav{
+    top:-20px;
+    position: absolute;
+    
+	margin:20px auto;
+   
+	max-width:922px;
+	width:90%;
+    
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+nav ul {
+	list-style:none;
+}
+
+nav > ul {
+	display:table;
+	/*Quitamos el overflow hidden que estaba aqui*/
+	width:100%;
+	background:#22A6F2;
+	position:relative;
+
+}
+
+nav > ul li {
+	display:table-cell;
+}
+
+/*Sub-menu*/
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#2ED4F0;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul li a {
+	color:#fff;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+
+nav > ul > li > a span {
+	
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+
+
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+
+.logonav{
+    width: 8%;
+    margin-right: 85%;
+    margin-top: 1px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    margin-right: -10px;
+    background-color: aqua;
+}
